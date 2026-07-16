@@ -79,11 +79,13 @@ print("-" * 30)
 # *** Object 1 ***
 # Is Prime Number:- True
 # Is Perfect Number:- False
+# [1, 7]
 # Sum of factors: 8
 # ------------------------------
 # Enter a number for Object 2: 28
 # *** Object 2 ***
 # Is Prime Number:- False
 # Is Perfect Number:- True
+# [1, 2, 4, 7, 14, 28]
 # Sum of factors: 56
 # ------------------------------
