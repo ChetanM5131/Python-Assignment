@@ -37,7 +37,8 @@ class BankAccount:
                 self.Amount=self.Amount - amt
             
         except ValueError:
-                print("Invalid input! Please enter a valid number.\n")    
+                print("Invalid Transaction Amount")   
+                print()
 
     def CalculateInterest(self):
         Interest = (self.Amount * BankAccount.ROI) / 100
