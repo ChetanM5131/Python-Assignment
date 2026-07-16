@@ -30,7 +30,8 @@ class BankAccount:
         try:
             amt=float(input("Enter the Amount need to Withdraw:-"))
             if amt > self.Amount:
-                print(f"Insufficient balance. Available: INR {self.Amount}\n")
+                print(f"Insufficient balance. Available: INR {self.Amount}")
+                print()
                 print("Can  not execute Transaction")
                 exit()                  
                 
@@ -68,7 +69,7 @@ print("-" * 30)
 
 print("*** Interest Calculation ***")
 Interest = obj2.CalculateInterest()
-print(f"Calculated Interest (at {BankAccount.ROI}% ROI): INR {Interest:.2f}")
+print(f"Calculated Interest (at {BankAccount.ROI}% ): Amount {Interest:.2f}")
 print("-" * 30)
 
 print("*** Account Details ***")
@@ -87,7 +88,7 @@ print("-" * 30)
 
 print("*** Interest Calculation ***")
 Interest = obj1.CalculateInterest()
-print(f"Calculated Interest (at {BankAccount.ROI}% ROI): INR {Interest:.2f}")
+print(f"Calculated Interest (at {BankAccount.ROI}% ): Amount {Interest:.2f}")
 print("-" * 30)
 
 # Output
@@ -118,7 +119,7 @@ print("-" * 30)
 # Account Holder Name is Jim and current Balance is 5100.0
 # ------------------------------
 # *** Interest Calculation ***
-# Calculated Interest (at 10.5% ROI): INR 535.50
+# Calculated Interest (at 10.5% ): Amount 535.50
 # ------------------------------
 # *** Account Details ***
 # Account Holder Name is John and current Balance is 5000
@@ -132,6 +133,6 @@ print("-" * 30)
 # Account Holder Name is John and current Balance is 5200.0
 # ------------------------------
 # *** Interest Calculation ***
-# Calculated Interest (at 10.5% ROI): INR 546.00
+# Calculated Interest (at 10.5% ): Amount 546.00
 # ------------------------------
 
