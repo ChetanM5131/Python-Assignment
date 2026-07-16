@@ -22,9 +22,19 @@ class BankAccount:
         self.Amount=Amount
 
     def Deposit(self):
+        try:
+            amt=float(input("Enter the Amount need to Deposit:-"))
+            if amt < 0:
+                print("Invalid Transaction Amount")   
+                print()
+                print("Can  not execute Transaction")
+                exit() 
+                
+            self.Amount=self.Amount+amt
         
-        amt=float(input("Enter the Amount need to Deposit:-"))
-        self.Amount=self.Amount+amt
+        except ValueError:
+                print("Invalid Transaction Amount for Deposit")   
+                print()    
 
     def Withdraw(self):
         try:
