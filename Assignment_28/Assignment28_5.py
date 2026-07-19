@@ -21,7 +21,7 @@ def main():
         lineno=1
         for i in fobj:
             if searchword in i.split():
-                print(f"word '{searchword}' found in file on line {lineno} : {i.strip()}")
+                print(f"word '{searchword}' found in file")
                 wordfound=True
             lineno+=1    
 
@@ -36,5 +36,5 @@ if __name__ == "__main__":
 
 # Output
 # C:\Users\Shree\Desktop\Assignments\Assignment_28>python Assignment28_5.py Demo.txt count
-# word 'count' found in file on line 7 : count the number of lines and
-# word 'count' found in file on line 8 : count the number of words    
+# word 'count' found in file 
+# word 'count' found in file 
