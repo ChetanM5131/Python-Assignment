@@ -1,0 +1,8 @@
+Jay Ganesh...
+This
+is
+demo
+file
+to 
+count the number of lines and
+count the number of words
